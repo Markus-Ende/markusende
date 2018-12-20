@@ -1,0 +1,24 @@
+{
+  "name": "markusende",
+  "version": "0.0.1",
+  "description": "Business card of myself",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "markusende": "./index.js",
+    "markus": "./index.js"
+  },
+  "keywords": [
+    "business",
+    "card"
+  ],
+  "author": "Markus Ende",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
+}
